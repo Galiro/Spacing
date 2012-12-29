@@ -12,14 +12,14 @@ Spacing has spaceleft, spaceright, spacetop, and spacebottom. Each has a level o
 on the Hello text, you simple add a 2 on 'spaceleft'. This would increase the amount of space to +20px.
 The numbers go all the way up to 10. After 5, the spacing begins to increase by +50px.
 
-Examples:  <div class="spaceleft4">Hello </div>     // Left space 20px.
-           <div class="spacetop6">Hello </div>     // Left space 150px.
+Examples: <code> class="spaceleft4    // Left space 20px.</code>
+         <code> class="spacetop6  // Left space 150px. </code>
 
 There is also space mini and space-x. Space mini provides a little smaller space, and space-x provides a very large space.
 To use simple add mini in front of the space direction (BUT dont include a number)!
 
-Ex: <div class="spaceright-mini">Hello </div>     // Right space mini.
-    <div class="spaceright-x">Hello </div>     // Large Right Space.
+Ex: <code>class="spaceright-mini">Hello </code>   // Right space mini.
+    <code>class="spaceright-x">Hello </code>     // Large Right Space.
 
 It might sound like a stupid useless idea, you can probably make your own, but, It could prove worthy.
 
